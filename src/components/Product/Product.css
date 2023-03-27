@@ -44,4 +44,4 @@
 }
 .btn-cart:hover{
     background-color: orange;
-}
+    transition: 0.5s;}
