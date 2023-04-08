@@ -39,7 +39,7 @@ const Shop = () => {
         // console.log(product);
         let newCart = [];
         // const newCart = [...cart, product];
-        // if product doesnt exist in the cart, then set quantity = 1;
+        // if product doesn't exist in the cart, then set quantity = 1;
         // if exist update quantity by 1
         const exists = cart.find(pd => pd.id === product.id);
         
