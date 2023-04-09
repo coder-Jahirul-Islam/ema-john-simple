@@ -4,7 +4,7 @@ import { faTrashAlt } from '@fortawesome/free-solid-svg-icons'
 import './ReviewItem.css'
 
 
-const ReviewItem = ({ product, handlerRemoveFromCart }) => {
+const ReviewItem = ({ product, handlerRemoveFromCart}) => {
     const { img, id, price, name, quantity } = product;
 
     return (
